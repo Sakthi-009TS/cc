@@ -1,0 +1,314 @@
+Create a modern, interactive typing practice website inspired by the overall concept of TypingClub, but with completely original branding, UI, content, and design.
+
+## Main Goal
+
+Build a beginner-friendly typing-learning platform where users can practice typing, complete lessons, track their performance, and improve their typing speed and accuracy.
+
+## Tech Stack
+
+Use:
+
+* HTML5
+* CSS3
+* JavaScript
+* Responsive design for desktop, tablet, and mobile
+* Use localStorage for saving user progress initially
+* Keep the code clean, modular, and easy for a beginner to understand
+
+## Pages / Sections
+
+### 1. Home Page
+
+Create an attractive landing page with:
+
+* Website logo/name
+* Navigation bar
+* Home
+* Lessons
+* Typing Test
+* Progress
+* Login / Sign Up
+* Hero section
+* Short description of the platform
+* "Start Typing" button
+* "Start Learning" button
+* Features section
+* Typing speed improvement section
+* Modern footer
+
+Use a professional typing/education theme with keyboard-related visuals.
+
+### 2. Typing Lessons
+
+Create a lesson system with levels.
+
+Example:
+
+* Level 1: Home Row
+* Level 2: Left Hand
+* Level 3: Right Hand
+* Level 4: Top Row
+* Level 5: Bottom Row
+* Level 6: Numbers
+* Level 7: Words
+* Level 8: Sentences
+* Level 9: Advanced Practice
+
+Each lesson should contain:
+
+* Lesson title
+* Difficulty
+* Instructions
+* Text to type
+* Progress indicator
+* Start button
+* Next lesson button
+
+### 3. Typing Test
+
+Create a real-time typing test.
+
+Features:
+
+* Display a paragraph to type
+* Text input area
+* Timer
+* WPM calculation
+* Accuracy percentage
+* Correct characters
+* Incorrect characters
+* Total characters
+* Mistakes
+* Start button
+* Pause button
+* Restart button
+* Finish button
+
+When the user types:
+
+* Highlight the current character
+* Show correctly typed characters in green
+* Show incorrectly typed characters in red
+* Automatically move to the next character
+* Prevent unnecessary scrolling
+* Make the typing experience smooth
+
+### 4. WPM Calculation
+
+Calculate Words Per Minute using:
+
+WPM = (Correct Characters / 5) / Time in Minutes
+
+Display the final WPM clearly.
+
+### 5. Accuracy Calculation
+
+Calculate:
+
+Accuracy = (Correct Characters / Total Typed Characters) × 100
+
+Show accuracy with a percentage.
+
+### 6. Result Screen
+
+After completing a typing test, show:
+
+* Final WPM
+* Accuracy
+* Correct characters
+* Wrong characters
+* Mistakes
+* Time taken
+* Performance message
+* Retry button
+* Back to dashboard button
+
+Use a nice result card with animations.
+
+### 7. Dashboard
+
+Create a user dashboard containing:
+
+* Total lessons completed
+* Current level
+* Best WPM
+* Average WPM
+* Best accuracy
+* Total practice time
+* Recent test results
+* Progress bar
+* Achievements / badges
+
+Use cards and simple charts where appropriate.
+
+### 8. Progress Tracking
+
+Use localStorage to save:
+
+* Completed lessons
+* Best WPM
+* Best accuracy
+* Test history
+* Current level
+* Total practice time
+* Achievements
+
+The data should remain after refreshing the browser.
+
+### 9. Login / Sign Up UI
+
+Create a clean login and registration interface.
+
+For the initial version, authentication can be simulated using localStorage.
+
+Include:
+
+* Name
+* Email
+* Password
+* Login
+* Sign Up
+* Logout
+
+Do not store real passwords insecurely if this is later connected to a real backend. Clearly structure the code so real authentication can be added later.
+
+### 10. Achievements
+
+Add badges such as:
+
+* First Test
+* 20 WPM
+* 30 WPM
+* 40 WPM
+* 50 WPM
+* 90% Accuracy
+* 95% Accuracy
+* 100% Accuracy
+* 5 Lessons Completed
+* 10 Lessons Completed
+
+Unlock badges automatically based on user performance.
+
+## Design Requirements
+
+Make the UI:
+
+* Modern
+* Clean
+* Colorful but professional
+* Beginner-friendly
+* Fast
+* Responsive
+* Easy to navigate
+
+Use:
+
+* Rounded cards
+* Smooth hover effects
+* Buttons with animations
+* Progress bars
+* Modern typography
+* Good spacing
+* Keyboard-inspired visual elements
+
+Suggested color palette:
+
+* Primary: #4F46E5
+* Secondary: #06B6D4
+* Success: #22C55E
+* Error: #EF4444
+* Background: #F8FAFC
+* Dark text: #0F172A
+
+Also provide a dark mode toggle.
+
+## Typing Experience
+
+The typing interface should be the most important part of the website.
+
+Make it:
+
+* Large and easy to read
+* Distraction-free
+* Keyboard-friendly
+* Responsive
+* Smooth
+* Accessible
+
+Support keyboard shortcuts where useful.
+
+## Navigation
+
+Create a responsive navbar with:
+
+* Logo
+* Home
+* Lessons
+* Typing Test
+* Dashboard
+* Progress
+* Profile
+* Dark Mode
+* Login / Logout
+
+On mobile, convert the navbar into a hamburger menu.
+
+## Code Structure
+
+Organize the project like:
+
+/typing-website
+index.html
+lessons.html
+typing-test.html
+dashboard.html
+login.html
+signup.html
+progress.html
+css/
+style.css
+responsive.css
+js/
+app.js
+typing-test.js
+lessons.js
+dashboard.js
+auth.js
+progress.js
+storage.js
+assets/
+
+Write clean, commented code.
+
+## Important
+
+Do NOT copy TypingClub's exact:
+
+* Logo
+* Branding
+* UI
+* Text
+* Images
+* Layout
+* Copyrighted content
+
+Use only the general concept of an online typing-learning platform as inspiration and create an original design and brand.
+
+## Final Requirement
+
+Make the first version fully functional without requiring a backend.
+
+The user should be able to:
+
+1. Open the website
+2. Start a lesson
+3. Type text
+4. See WPM
+5. See accuracy
+6. Finish the test
+7. View results
+8. Save progress
+9. See achievements
+10. Return later and continue their progress
+
+Build the project step-by-step, starting with the homepage and typing test, then add the dashboard, lessons, progress tracking, and authentication UI.
